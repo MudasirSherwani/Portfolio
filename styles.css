@@ -1,0 +1,37 @@
+@media screen and (min-width: 320px) {
+  body {
+    background-color: #191765;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  header a {
+    line-height: 16px;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header nav {
+    width: 33.33px;
+  }
+
+  nav i:hover {
+    cursor: pointer;
+    color: #acb7c3;
+  }
+}
