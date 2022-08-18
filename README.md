@@ -4,7 +4,9 @@
 > In the Mobile View Portfolio there are few important sections are visible.
 > This project has done after getting templete from FIGMA templete #4.
 
-![Portfolio in Mobile View with two sections](2sectionmobileview.png)
+![Portfolio in Mobile View with two sections](2sectionmobileview1.png)
+![Portfolio in Mobile View with two sections](2sectionmobileview12.png)
+
 
 ## Built With
 
@@ -39,15 +41,6 @@ Linters
 - ESLint
 - node_modules checker
 - Github
-
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
 
 ### Deployment
 - [Linter](https://github.com/microverseinc/linters-config/tree/master/html-css)
