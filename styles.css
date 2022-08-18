@@ -92,4 +92,25 @@
     background: #edecff;
     filter: blur(20px);
   }
+
+  hr {
+    border: 1px solid #646369;
+    margin: 30px 0;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  ul li {
+    display: inline-block;
+    align-content: center;
+  }
+
+  ul a i {
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+  }
 }
