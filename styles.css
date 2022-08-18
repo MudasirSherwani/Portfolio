@@ -1,0 +1,172 @@
+@media screen and (min-width: 320px) {
+  body {
+    background-color: #191765;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  header a {
+    line-height: 16px;
+    padding-top: 10px;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header nav {
+    width: 33.33px;
+  }
+
+  nav i:hover {
+    cursor: pointer;
+    color: #acb7c3;
+  }
+
+  section {
+    margin: 10px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .developer-title {
+    margin: 20px;
+    white-space: nowrap;
+  }
+
+  .developer-title h1 {
+    margin: 1px;
+    padding: 10px 0;
+    font-size: 48px;
+    font-style: bold;
+    letter-spacing: 0.37px;
+    line-height: 72px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #9490ff;;
+  }
+
+  .software-developer {
+    margin: 1px;
+    font-size: 30px;
+    line-height: 44px;
+    vertical-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+
+  .banner-text-pera {
+    color: #c8c8d4;
+    font-style: regular;
+    font-size: 20px;
+    line-height: 28px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .shining-star {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    left: -96px;
+    top: 50px;
+    background: #edecff;
+    filter: blur(20px);
+  }
+
+  hr {
+    border: 1px solid #646369;
+    margin: 30px 0;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  ul li {
+    display: inline-block;
+    align-content: center;
+  }
+
+  ul a i {
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .Knowledge {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+
+  .Knowledge .shining-star {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 510px;
+  }
+
+  .Knowledge div {
+    width: 50%;
+  }
+
+  .Knowledge h4 {
+    padding-bottom: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .Knowledge ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .Knowledge li {
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 0;
+    text-align: left;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .heading {
+    color: #9490ff;
+  }
+
+  .headinglist {
+    color: #edecff;
+  }
+}
