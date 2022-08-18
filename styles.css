@@ -113,4 +113,60 @@
     font-size: 25px;
     color: #fff;
   }
+
+  .Knowledge {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+
+  .Knowledge .shining-star {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 510px;
+  }
+
+  .Knowledge div {
+    width: 50%;
+  }
+
+  .Knowledge h4 {
+    padding-bottom: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .Knowledge ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .Knowledge li {
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 0;
+    text-align: left;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .heading {
+    color: #9490ff;
+  }
+
+  .headinglist {
+    color: #edecff;
+  }
 }
