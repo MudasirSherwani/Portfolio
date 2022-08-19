@@ -14,6 +14,7 @@
 
   * {
     margin: 0;
+    margin-left: 5px;
     padding: 0;
   }
 
@@ -266,7 +267,7 @@
   }
 
   .lang-list li {
-    padding: 10px 20px 0 0;
+    padding: 10px 15px 10px 10px;
     padding-bottom: 20px;
     border-right: 1px solid #555;
     height: 20px;
@@ -274,6 +275,10 @@
     list-style-type: none;
     display: inline-flex;
     font-family: 'Roboto', sans-serif;
+  }
+
+  #noborder {
+    border-right: 0 solid;
   }
 
   .proj-1 .shining-star {
@@ -292,7 +297,7 @@
     width: 70.28px;
     height: 261.6px;
     left: 300px;
-    top: 2300px;
+    top: 2500px;
     background: var(--secondary);
     filter: blur(23px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -313,7 +318,7 @@
     width: 55.29px;
     height: 200.04px;
     left: 288px;
-    top: 3700px;
+    top: 3900px;
     background: var(--secondary);
     filter: blur(21px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
