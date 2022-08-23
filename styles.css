@@ -386,13 +386,16 @@
   }
 
   .contact-form div p {
-    font-size: 16px;
-    line-height: 24px;
     color: #f5f5ff;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
     font-weight: 400;
-    margin: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
   }
 
   .input-cls {
@@ -438,9 +441,9 @@
   }
 
   .rectangle-42 {
-    width: 100vh;
+    width: auto;
     align-items: center;
-    height: 1px;
+    height: 2px;
     left: 0;
     right: 0;
     top: 0;
