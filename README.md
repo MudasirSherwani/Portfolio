@@ -4,7 +4,7 @@
 > In the Mobile View Portfolio there are few important sections are visible.
 > This project has done after getting templete from FIGMA templete #4.
 
-![Portfolio in Mobile View1](images/mobileview1.png)![Portfolio in Mobile View12](images/mobileview12.png)![Portfolio in Mobile View12](images/mobileview123.png)[Portfolio in Mobile View12](images/mobileview1234.png)
+![Portfolio in Mobile View1](images/mobileview1.png)![Portfolio in Mobile View12](images/mobileview12.png)![Portfolio in Mobile View123](images/mobileview123.png)![Portfolio in Mobile View124](images/mobileview1234.png)
 
 
 ## Working Modules
