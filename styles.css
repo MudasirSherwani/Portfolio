@@ -441,7 +441,7 @@
   }
 
   .rectangle-42 {
-    width: auto;
+    width: 100vw;
     align-items: center;
     height: 2px;
     left: 0;
