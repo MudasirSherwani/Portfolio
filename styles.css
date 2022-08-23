@@ -14,7 +14,6 @@
 
   * {
     margin: 0;
-    margin-left: 5px;
     padding: 0;
   }
 
@@ -351,5 +350,66 @@
 
   .btn:disabled {
     background-color: #2a2b33;
+  }
+
+  .contact-form .flex-container-column,
+  .flex .flex-container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    margin-top: 75px;
+  }
+
+  .mobile-form {
+    padding: 20px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 24px;
+  }
+
+  .contact-form div h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 44px;
+    color: #9390ff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  .contact-form div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f5ff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin: 20px;
+  }
+
+  .input-cls {
+    width: 100%;
+    padding: 16px;
+    color: #191765;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .input-cls > textarea {
+    height: auto;
+  }
+
+  .submit-btn {
+    margin-top: 16px;
+    margin-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
   }
 }
