@@ -409,7 +409,7 @@
 
   .submit-btn {
     margin-top: 16px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -423,18 +423,28 @@
     top: 5040px;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 40px;
     padding: 20px;
+  }
+
+  .footer-email > a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    text-decoration: none;
   }
 
   .rectangle-42 {
     width: 100vh;
     align-items: center;
     height: 1px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: #3A3837;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #3a3837;
   }
 
   .footer-text {
@@ -447,6 +457,6 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: var(--white);
   }
 }
