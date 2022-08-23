@@ -412,4 +412,41 @@
     margin-bottom: 80px;
     font-family: 'Roboto', sans-serif;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    left: 0;
+    top: 5040px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .rectangle-42 {
+    width: 100vh;
+    align-items: center;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #3A3837;
+  }
+
+  .footer-text {
+    height: 29px;
+    left: 76px;
+    top: 5346px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+  }
 }
