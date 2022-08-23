@@ -14,7 +14,6 @@
 
   * {
     margin: 0;
-    margin-left: 5px;
     padding: 0;
   }
 
@@ -351,5 +350,116 @@
 
   .btn:disabled {
     background-color: #2a2b33;
+  }
+
+  .contact-form .flex-container-column,
+  .flex .flex-container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    margin-top: 75px;
+  }
+
+  .mobile-form {
+    padding: 20px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 24px;
+  }
+
+  .contact-form div h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 44px;
+    color: #9390ff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  .contact-form div p {
+    color: #f5f5ff;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .input-cls {
+    width: 100%;
+    padding: 16px;
+    color: #191765;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .input-cls > textarea {
+    height: auto;
+  }
+
+  .submit-btn {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    left: 0;
+    top: 5040px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+  }
+
+  .footer-email > a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    text-decoration: none;
+  }
+
+  .rectangle-42 {
+    width: 100vw;
+    align-items: center;
+    height: 2px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #3a3837;
+  }
+
+  .footer-text {
+    height: 29px;
+    left: 76px;
+    top: 5346px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--white);
   }
 }
