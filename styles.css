@@ -188,7 +188,7 @@ ul a i {
 
 .icon-list li {
   color: white;
-  }
+}
 
 .lang-list {
   display: flex;
@@ -588,6 +588,14 @@ footer .text-hover:hover {
     align-items: center;
     gap: 10px;
     margin-bottom: 50px;
+  }
+
+  .proj-2 {
+    flex-direction: row-reverse;
+  }
+
+  .proj-4 {
+    flex-direction: row-reverse;
   }
 
   #my-recent-work {
