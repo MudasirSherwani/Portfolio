@@ -8,6 +8,22 @@ body {
   box-sizing: border-box;
 }
 
+#mobile-contactus {
+  display: block;
+}
+
+#desktop-chat {
+  display: none;
+}
+
+.desktop-form {
+  display: none;
+}
+
+#desktop {
+  display: none;
+}
+
 header {
   margin-top: 20px;
   display: flex;
@@ -31,15 +47,6 @@ header a {
   text-decoration: none;
   color: white;
   font-family: 'Roboto', sans-serif;
-}
-
-header i {
-  transition-property: transform;
-  transition-delay: 1s;
-}
-
-header i:hover {
-  transform: rotate(90deg);
 }
 
 header nav {
@@ -181,13 +188,7 @@ ul a i {
 
 .icon-list li {
   color: white;
-  transition-property: transform;
-  transition-duration: 1s;
-}
-
-.icon-list li:hover {
-  transform: scale(1.7);
-}
+  }
 
 .lang-list {
   display: flex;
@@ -295,8 +296,6 @@ ul a i {
   line-height: 24px;
   font-weight: 500px;
   letter-spacing: 3%;
-  transition-property: background-color;
-  transition-duration: 1s;
 }
 
 .lang-list li {
@@ -419,6 +418,22 @@ footer .text-hover:hover {
   * {
     margin: 0;
     padding: 0;
+  }
+
+  #mobile-contactus {
+    display: none;
+  }
+
+  #contact #desktop-chat {
+    display: block;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: block;
   }
 
   html,
@@ -604,5 +619,70 @@ footer .text-hover:hover {
   .grid-row-item p {
     line-height: normal;
     font-size: 19px;
+  }
+
+  .contact-form div p {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .contact-form {
+    width: 70%;
+    margin: 50px auto 20px auto;
+  }
+
+  .first-last-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .email {
+    display: flex;
+    width: 100%;
+  }
+
+  .messagebox {
+    display: flex;
+    width: 100%;
+  }
+
+  .desktop-input {
+    width: 100%;
+    padding: 12px;
+    color: #191765;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #Last-name {
+    width: 288px;
+  }
+
+  #First-name {
+    width: 288px;
+  }
+
+  .desktop-input > textarea {
+    height: auto;
+  }
+
+  .desktop-form {
+    display: flex;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-email > a {
+    margin-bottom: 10px;
   }
 }
