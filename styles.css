@@ -430,6 +430,25 @@ footer .text-hover:hover {
     display: flex;
   }
 
+  nav .fa-bars {
+    display: none;
+  }
+
+  .menu-lists {
+    margin: 15px 0;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 22px;
+  }
+
+  .menu-lists li {
+    padding: 10px 20px 0 0;
+  }
+
   nav > ul > li {
     display: inline-block;
     margin-right: 20%;
