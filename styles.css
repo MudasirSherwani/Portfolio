@@ -6,6 +6,7 @@
   --text: #c8c8d4;
   --white: #fff;
 }
+
 body {
   background-color: var(--basic);
 }
