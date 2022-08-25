@@ -4,7 +4,7 @@
 > In the Mobile View and Desktop View Portfolio there are few important sections Header, Headline, Project Area, Contact Form with footer are visible.
 > This project has done after getting templete from FIGMA templete #4.
 
-![Portfolio in Mobile View1](images/desktopview1.png)![Portfolio in Mobile View1](images/mobileview1.png)![Portfolio in Mobile View12](images/mobileview12.png)![Portfolio in Mobile View123](images/mobileview123.png)
+![Portfolio in Mobile View1](images/desktopview1.png)![Portfolio in Mobile View1](images/mobileview1.png)![Portfolio in Mobile View12](images/mobileview12.png)
 
 
 ## Working Modules

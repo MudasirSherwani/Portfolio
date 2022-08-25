@@ -1,5 +1,13 @@
+:root {
+  --secondary: #edecff;
+  --secondary-head: #9490ff;
+  --basic: #191765;
+  --basic-head: #7d73fc;
+  --text: #c8c8d4;
+  --white: #fff;
+}
 body {
-  background-color: #191765;
+  background-color: var(--basic);
 }
 
 * {
@@ -29,11 +37,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  color: white;
+  color: var(--white);
 }
 
 .welcom-name {
-  color: white;
+  color: var(--white);
   text-align: center;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
@@ -45,7 +53,7 @@ header a {
   font-size: 18px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -81,7 +89,7 @@ section {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 700;
-  color: #9490ff;
+  color: var(--secondary-head);
 }
 
 .software-developer {
@@ -93,11 +101,11 @@ section {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 500;
-  color: white;
+  color: var(--white);
 }
 
 .banner-text-pera {
-  color: #c8c8d4;
+  color: var(--text);
   font-style: regular;
   font-size: 20px;
   line-height: 28px;
@@ -156,7 +164,7 @@ ul a i {
 }
 
 .Technology-knowledge h4 {
-  padding-bottom: 20%;
+  padding-bottom: 10%;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -173,11 +181,11 @@ ul a i {
 }
 
 .heading {
-  color: #9490ff;
+  color: var(--secondary-head);
 }
 
 .headinglist {
-  color: #edecff;
+  color: var(--secondary);
 }
 
 .icon-list {
@@ -187,10 +195,11 @@ ul a i {
 }
 
 .icon-list li {
-  color: white;
+  color: var(--white);
 }
 
 .lang-list {
+  padding: 10px 15px 10px 10px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
@@ -242,7 +251,7 @@ ul a i {
   font-size: 32px;
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
-  color: #9490ff;
+  color: var(--secondary-head);
   width: 220px;
   text-transform: uppercase;
 }
@@ -280,14 +289,14 @@ ul a i {
   line-height: 44px;
   margin: 50px 0;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: var(--white);
 }
 
 .btn {
   height: 48px;
   width: 89px;
-  background-color: #7d73fc;
-  color: white;
+  background-color: var(--basic-head);
+  color: var(--white);
   padding: 12px;
   align-items: center;
   font-size: 12px;
@@ -299,11 +308,11 @@ ul a i {
 }
 
 .lang-list li {
-  padding: 10px 20px 0 0;
+  padding: 10px 20px;
   padding-bottom: 20px;
   border-right: 1px solid #555;
   height: 20px;
-  color: white;
+  color: var(--white);
   list-style-type: none;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
@@ -311,8 +320,8 @@ ul a i {
 
 .btn:hover {
   cursor: pointer;
-  background-color: #7d73fc;
-  color: white;
+  background-color: var(--basic-head);
+  color: var(--white);
 }
 
 .btn:active {
@@ -348,7 +357,7 @@ ul a i {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  gap: 24px;
+  gap: 5px;
 }
 
 .footer {
@@ -383,7 +392,7 @@ ul a i {
 .input-cls {
   width: 100%;
   padding: 16px;
-  color: #191765;
+  color: var(--basic);
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
 }
@@ -468,7 +477,7 @@ footer .text-hover:hover {
     display: inline-block;
     margin-right: 20%;
     margin-top: -20px;
-    color: white;
+    color: var(--white);
     font-family: 'Roboto', sans-serif;
   }
 
@@ -610,7 +619,7 @@ footer .text-hover:hover {
 
   .lang-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
   }
 
   .recent-work > h3 {
@@ -660,7 +669,7 @@ footer .text-hover:hover {
   .desktop-input {
     width: 100%;
     padding: 12px;
-    color: #191765;
+    color: var(--basic);
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
   }
