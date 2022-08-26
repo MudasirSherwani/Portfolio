@@ -703,4 +703,14 @@ footer .text-hover:hover {
   .footer-email > a {
     margin-bottom: 10px;
   }
+
+  .welcom-name {
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+
+  body.loaded .welcom-name {
+    transform: rotate(360deg);
+  }
+
 }
