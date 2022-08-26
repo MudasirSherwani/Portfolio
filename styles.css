@@ -589,6 +589,12 @@ footer .text-hover:hover {
   .grid-row-item .project-image {
     width: 500px;
     height: 298px;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .grid-row-item .project-image:hover {
+    transform: scale(1.05);
   }
 
   .grid-item {
