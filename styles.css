@@ -306,6 +306,7 @@ ul a i {
   line-height: 24px;
   font-weight: 500px;
   letter-spacing: 3%;
+  transition: width 2s, height 2s, background-color 1s, transform 1s;
 }
 
 .lang-list li {
@@ -321,7 +322,7 @@ ul a i {
 
 .btn:hover {
   cursor: pointer;
-  background-color: var(--basic-head);
+  background-color: #553dc0;
   color: var(--white);
 }
 
