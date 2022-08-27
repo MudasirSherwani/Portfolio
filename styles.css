@@ -306,6 +306,7 @@ ul a i {
   line-height: 24px;
   font-weight: 500px;
   letter-spacing: 3%;
+  transition: width 2s, height 2s, background-color 1s, transform 1s;
 }
 
 .lang-list li {
@@ -321,7 +322,7 @@ ul a i {
 
 .btn:hover {
   cursor: pointer;
-  background-color: var(--basic-head);
+  background-color: #553dc0;
   color: var(--white);
 }
 
@@ -589,6 +590,12 @@ footer .text-hover:hover {
   .grid-row-item .project-image {
     width: 500px;
     height: 298px;
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .grid-row-item .project-image:hover {
+    transform: scale(1.05);
   }
 
   .grid-item {
@@ -702,5 +709,14 @@ footer .text-hover:hover {
 
   .footer-email > a {
     margin-bottom: 10px;
+  }
+
+  .welcom-name {
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+
+  body.loaded .welcom-name {
+    transform: rotate(360deg);
   }
 }
