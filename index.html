@@ -20,14 +20,25 @@
                 <i class="fa-solid fa-envelope white"></i>
               </li>
             </ul>
-            <i class="fa-solid fa-bars fa-2x white"></i>
+            <i class="fa-solid fa-bars fa-2x white" onclick="hamburgeOn()"></i>
           </nav>
     </header>
     <main>
+
+    <div class="overlay-menu">
+      <div>
+        <i href="#" onclick="hamburgeOff()" class="fa-solid fa-close fa-2x"></i>
+      </div>
+      <nav class="overlay-menu-list" onclick="hamburgeOff()">
+        <a href="#my-recent-work"><p>Portfolio</p></a>
+        <a href="#about"><p>About</p></a>
+        <a href="#contact"><p>Contact</p></a>
+      </nav>
+    </div>
       <section class="header-language">
         <div class="shining-star-1">
           <div class="shining-start-11">
-              <div class="developer-title align-center" >
+              <div class="developer-title align-center" id="about">
                 <h1 class="developer-name">Mudasir Ashraf</h1>
                 <h2 class="software-developer">Software Developer</h2>
               </div>
@@ -277,5 +288,6 @@
             <a href="#" class="text-hover">mudasir9757@gmail.com</a>
           </div>
     </footer>
+    <script src="./mobile_menu.js"></script>
 </body>
 </html>
