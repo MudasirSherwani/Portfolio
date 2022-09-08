@@ -68,6 +68,17 @@ header a {
   height: 100%;
   background: var(--basic);
   }
+  .overlay-menu {
+    background-image: url(bg/dehb.png), url(bg/efhb.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top 33%, right top 100%;
+    background-size: 600px;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0 30px;
+    gap: 10px;
+  }
+  
 
 .overlay-menu-list {
   padding-top: 100px;
