@@ -67,18 +67,18 @@ header a {
   width: 100%;
   height: 100%;
   background: var(--basic);
-  }
-  .overlay-menu {
-    background-image: url(bg/dehb.png), url(bg/efhb.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: left top 33%, right top 100%;
-    background-size: 600px;
-    display: grid;
-    grid-template-rows: auto;
-    padding: 0 30px;
-    gap: 10px;
-  }
-  
+}
+
+.overlay-menu {
+  background-image: url(bg/dehb.png), url(bg/efhb.png), url(bg/next-arrow.svg), url(bg/next-arrow.svg), url(bg/next-arrow.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left top 66%, right top 200%, right 48px  top 104px, right 48px  top 154px, right 48px  top 204px;
+  background-size: 600px, 600px, 10px, 10px, 10px;
+  display: grid;
+  grid-template-rows: auto;
+  padding: 0 30px;
+  gap: 10px;
+}
 
 .overlay-menu-list {
   padding-top: 100px;
