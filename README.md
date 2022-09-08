@@ -1,8 +1,16 @@
 # Protfolio
 
 > This is Portfolio project in Mobile View and Desktop View .This project developement assing by Microverse.
-> In the Mobile View and Desktop View Portfolio there are few important sections Header, Headline, Project Area, Contact Form with footer are visible.
+> In the Mobile View and Desktop View Portfolio there are few important sections Header, Headline, Project Area, Contact
+Form with footer are visible.
 > This project has done after getting templete from FIGMA templete #4.
+
+## Live Demo Link
+
+- [Mudasir Sherwani Portfolio](https://mudasirsherwani.github.io/Portfolio)
+
+
+## Screen Snapshot of Project
 
 ![Portfolio in Mobile View1](images/desktopview1.png)![Portfolio in Mobile View1](images/mobileview1.png)![Portfolio in Mobile View12](images/mobileview12.png)
 
@@ -13,6 +21,7 @@
 - Project Area work done.
 - Contact Form Submit to https://formspree.io/
 - Footer with social icons
+- Mobile Hamburg Menu
 
 
 ## Built With
@@ -38,6 +47,7 @@ Linters Installed
 - GitHub Repositry URL: https://github.com/MudasirSherwani/Portfolio
   To get a local copy up and running follow these simple example steps.
 
+
 ### Prerequisites
 - Visual Studio
 - Knowldege About HTML / CSS
@@ -48,6 +58,7 @@ Linters
 - ESLint
 - node_modules checker
 - Github
+
 
 ### Deployment
 - [Linter](https://github.com/microverseinc/linters-config/tree/master/html-css)
@@ -64,7 +75,9 @@ Linters
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@Kaweesi Matia](https://github.com/Kaweesi-Matia)
+
+Other Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
