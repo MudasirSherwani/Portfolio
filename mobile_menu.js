@@ -7,6 +7,5 @@ OverlayMenu.style.display = 'block';
 function hamburgeOff() {
 OverlayMenu.style.display = 'none';
 }
-
 hamburgeOn();
 hamburgeOff();
