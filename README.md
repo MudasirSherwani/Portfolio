@@ -75,7 +75,9 @@ Linters
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@Kaweesi Matia](https://github.com/Kaweesi-Matia)
+
+Other Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
