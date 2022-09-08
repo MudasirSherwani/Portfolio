@@ -11,9 +11,11 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
+    "linebreak-style": ["error", "windows"],
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
+		"indent": "off",
     "import/extensions": [ 1, {
       "js": "always", "json": "always"
     }]

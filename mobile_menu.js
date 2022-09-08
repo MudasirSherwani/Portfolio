@@ -1,8 +1,12 @@
-let overlay_menu = document.querySelector('.overlay-menu');
+const OverlayMenu = document.querySelector('.overlay-menu');
+function hamburgeOn() {
+  if (OverlayMenu.style.display === 'none') {
+    OverlayMenu.style.display = 'block';
+  }
+  }
+function hamburgeOff() {
+  OverlayMenu.style.display = 'none';
+}
+
 hamburgeOn();
 hamburgeOff();
-function hamburgeOn() {
-  if (overlay_menu.style.display == 'none') 
-    overlay_menu.style.display = 'block';}
-function hamburgeOff() {
-  overlay_menu.style.display = 'none';}

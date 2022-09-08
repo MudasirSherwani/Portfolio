@@ -21,6 +21,7 @@ Form with footer are visible.
 - Project Area work done.
 - Contact Form Submit to https://formspree.io/
 - Footer with social icons
+- Mobile Hamburg Menu
 
 
 ## Built With
