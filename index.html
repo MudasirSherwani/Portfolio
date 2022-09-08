@@ -4,11 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup-window.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Mudasir's Portfolio Home Page</title>
 </head>
-<body onload="document.body.className += ' loaded';">
+<body class="main-body" onload="document.body.className += ' loaded';">
     <header>
         <a href="#" class="welcom-name">Mudasir Sherwani</a>
           <nav class="flex-container">
@@ -24,7 +25,6 @@
           </nav>
     </header>
     <main>
-
     <div class="overlay-menu">
       <div>
         <i href="#" onclick="hamburgeOff()" class="fa-solid fa-close fa-2x"></i>
@@ -34,6 +34,19 @@
         <a href="#about"><p>About</p></a>
         <a href="#contact"><p>Contact</p></a>
       </nav>
+    </div>
+    <div id="overlay">
+      <div id="popup">
+        <i id="close-btn" href="#" onclick="popup_windowOff()" class="fa-solid fa-close fa-2x "></i>
+        <img id="popup-project-image" alt="" />
+        <p id="popup-project-desc"></p>
+        <ul id="popup-technologies" class="lists">
+          <li id="popup-tech1">asdf</li>
+          <li id="popup-tech2">aserf</li>
+          <li id="popup-tech3">ew</li>
+          <li id="popup-tech4">fasd</li>
+        </ul>
+      </div>
     </div>
       <section class="header-language">
         <div class="shining-star-1">
@@ -132,7 +145,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="popup_windowOn(1)">
                     See Project
                   </button>
                 </div>
@@ -162,7 +175,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="popup_windowOn(2)">
                     See Project
                   </button>
                 </div>
@@ -192,7 +205,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="popup_windowOn(3)">
                     See Project
                   </button>
                 </div>
@@ -222,7 +235,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="popup_windowOn(4)">
                     See Project
                   </button>
                 </div>
@@ -288,6 +301,8 @@
             <a href="#" class="text-hover">mudasir9757@gmail.com</a>
           </div>
     </footer>
+    <script src="./popup_window.js"></script>
     <script src="./mobile_menu.js"></script>
+
 </body>
 </html>
