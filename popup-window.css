@@ -100,7 +100,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-
 }
 
 #popup-technologies {
@@ -110,13 +109,13 @@
 }
 
 #popup-tech1 {
-  border-left: 1px solid #81818C;
+  border-left: 1px solid #81818c;
 }
 
 #popup-technologies > li {
   margin-top: 10%;
   padding-bottom: 20px;
-  border-right: 1px solid #81818C;
+  border-right: 1px solid #81818c;
   height: 20px;
   color: var(--white);
   list-style-type: none;
@@ -142,7 +141,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   margin-left: 16px;
   text-decoration: none;
   padding-top: 10px;
