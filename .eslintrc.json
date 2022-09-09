@@ -11,6 +11,7 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
+    "prefer-destructuring": ["error", {"object": true, "array": false}],
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",

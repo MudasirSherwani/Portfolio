@@ -4,11 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup-window.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Mudasir's Portfolio Home Page</title>
 </head>
-<body onload="document.body.className += ' loaded';">
+<body class="main-body" onload="document.body.className += ' loaded';">
     <header>
         <a href="#" class="welcom-name">Mudasir Sherwani</a>
           <nav class="flex-container">
@@ -24,7 +25,6 @@
           </nav>
     </header>
     <main>
-
     <div class="overlay-menu">
       <div>
         <i onclick="hamburgeOff()" class="fa-solid fa-close fa-2x"></i>
@@ -34,6 +34,35 @@
         <a href="#about"><p>About</p></a>
         <a href="#contact"><p>Contact</p></a>
       </nav>
+    </div>
+    <div id="overlay">s
+      <div id="popup">
+        <div class="popup-header">
+          <h4 id="popup-project-heading" class="popup-heading">This Heading</h4>
+          <i id="close-btn" href="#" onclick="PopupWindowOff()" class="fa-solid fa-close fa-2x close-popup"></i>
+        </div>
+        <div class="popup-body">
+          <div class="popup-image-area">
+            <img id="popup-project-image" alt="" />
+          </div>
+          <div class="popup-detail-area">
+            <p id="popup-project-desc"></p>
+          </div>
+         <div class="popup-tech-area">
+          <ul id="popup-technologies" class="lists">
+            <li class="popup-list" id="popup-tech1"></li>
+            <li class="popup-list" id="popup-tech2"></li>
+            <li class="popup-list" id="popup-tech3"></li>
+            <li class="popup-list" id="popup-tech4"></li>
+          </ul>
+        </div>
+          <div class="popup-btns-area">
+            <button onclick="PopupWindowOff()" type="button"><a id="see-live" href="#">See Live</a><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="white"/></button>
+            <button class="see-source" onclick="PopupWindowOff()"  type="button"><a id="see-source" href="#">See Source</a><i class="fab fa-github white fa-lg" ></i></button>
+          </div>
+            </div>
+        </div>
     </div>
       <section class="header-language">
         <div class="shining-star-1">
@@ -132,7 +161,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="PopupWindowOn(1)">
                     See Project
                   </button>
                 </div>
@@ -162,7 +191,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="PopupWindowOn(2)">
                     See Project
                   </button>
                 </div>
@@ -192,7 +221,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="PopupWindowOn(3)">
                     See Project
                   </button>
                 </div>
@@ -222,7 +251,7 @@
                   </ul>
                 </div>
                 <div class="grid-row-item">
-                  <button type="button" class="btn">
+                  <button type="button" class="btn" onclick="PopupWindowOn(4)">
                     See Project
                   </button>
                 </div>
@@ -288,6 +317,8 @@
             <a href="#" class="text-hover">mudasir9757@gmail.com</a>
           </div>
     </footer>
+    <script src="./popup_window.js"></script>
     <script src="./mobile_menu.js"></script>
+
 </body>
 </html>
