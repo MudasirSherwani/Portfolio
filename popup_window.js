@@ -33,15 +33,14 @@ const ProjectDataObjects = [
     pro_Source: 'https://github.com/MudasirSherwani/Portfolio',
   },
 ];
-const { pro_Technologies: technology1 } = ProjectDataObjects;
 function GetProjectData(i) {
   document.getElementById('popup-project-heading').innerHTML = ProjectDataObjects[i].pro_Name;
   document.getElementById('popup-project-image').src = ProjectDataObjects[i].pro_Images;
   document.getElementById('popup-project-desc').innerHTML = ProjectDataObjects[i].pro_Description;
-  document.getElementById('popup-tech1').innerHTML = technology1[0];
-  document.getElementById('popup-tech2').innerHTML = technology1[0];
-  document.getElementById('popup-tech3').innerHTML = technology1[0];
-  document.getElementById('popup-tech4').innerHTML = technology1[0];
+  document.getElementById('popup-tech1').innerHTML = ProjectDataObjects[i].pro_Technologies[0];
+  document.getElementById('popup-tech2').innerHTML = ProjectDataObjects[i].pro_Technologies[1];
+  document.getElementById('popup-tech3').innerHTML = ProjectDataObjects[i].pro_Technologies[2];
+  document.getElementById('popup-tech4').innerHTML = ProjectDataObjects[i].pro_Technologies[3];
   document.getElementById('see-live').href = ProjectDataObjects[i].pro_Live;
   document.getElementById('see-source').href = ProjectDataObjects[i].pro_Source;
 }
