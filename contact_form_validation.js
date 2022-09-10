@@ -4,10 +4,9 @@ function CheckEmailCase(eEmail) {
     document.getElementById('error-msg-d').innerHTML = 'Email should be in lowercase. Try Again!.';
     return false;
   }
-  else {
+
     document.getElementById('error-msg-m').innerHTML = '';
     document.getElementById('error-msg-d').innerHTML = '';
     return true;
-  }
 }
 CheckEmailCase();
