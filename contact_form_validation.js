@@ -1,5 +1,5 @@
 function CheckEmailCase(eEmail) {
-  if (eEmail.value !== eEmail.value.toLowerCase()) {
+  if (eEmail.value !== eEmail.value.toLowerCase() || 1===1) {
     document.getElementById('error-msg-m').innerHTML = 'Email should be in lowercase.';
     document.getElementById('error-msg-d').innerHTML = 'Email should be in lowercase. Try Again!.';
     return false;
