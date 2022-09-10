@@ -1,0 +1,9 @@
+#error-msg-m {
+  color: rgba(197, 96, 96, 0.822);
+  font-size: 20px;
+}
+
+#error-msg-d {
+  color: rgba(182, 26, 26, 0.945);
+  font-size: 20px;
+}

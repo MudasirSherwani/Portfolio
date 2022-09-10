@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Mudasir's Portfolio Home Page</title>
+    <link rel="stylesheet" href="./formvalidation.css">
 </head>
 <body class="main-body" onload="document.body.className += ' loaded';">
     <header>
@@ -39,11 +40,11 @@
       <div id="popup">
         <div class="popup-header">
           <h4 id="popup-project-heading" class="popup-heading">This Heading</h4>
-          <i id="close-btn" href="#" onclick="PopupWindowOff()" class="fa-solid fa-close fa-2x close-popup"></i>
+          <i id="close-btn" onclick="PopupWindowOff()" class="fa-solid fa-close fa-2x close-popup"></i>
         </div>
         <div class="popup-body">
           <div class="popup-image-area">
-            <img id="popup-project-image" alt="" />
+            <img id="popup-project-image" src="/images/Project_Image.svg" alt="" />
           </div>
           <div class="popup-detail-area">
             <p id="popup-project-desc"></p>
@@ -57,11 +58,11 @@
           </ul>
         </div>
           <div class="popup-btns-area">
-            <button onclick="PopupWindowOff()" type="button"><a id="see-live" href="#">See Live</a><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="white"/></button>
-            <button class="see-source" onclick="PopupWindowOff()"  type="button"><a id="see-source" href="#">See Source</a><i class="fab fa-github white fa-lg" ></i></button>
+            <button onclick="PopupWindowOff()" type="button"></button>
+            <button class="see-source" onclick="PopupWindowOff()"  type="button">
+            <i class="fab fa-github white fa-lg" ></i></button>
           </div>
-            </div>
+          </div>
         </div>
     </div>
       <section class="header-language">
@@ -268,18 +269,19 @@
             I’d love to help with it </p>
         </div>
         <div class="mobile-form">
-          <form action="https://formspree.io/f/xdojkawr" method="post" class="flex contact-form" id="mobile">
+          <form action="https://formspree.io/f/xdojkawr" onsubmit="return CheckEmailCase(document.getElementById('email'))" method="post" class="flex contact-form" id="mobile">
             <input type="text" name="full-name" id="full-name" pattern="[a-zA-Z'-'\s]*" class="input-cls"
               placeholder="Full Name" maxlength="30" required />
             <input type="email" name="email" id="email" class="input-cls"
               placeholder="username@mail.com" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required />
             <textarea class="input-cls" name="message" id="message" cols="48" rows="9"
               maxlength="500" placeholder="Enter text here" required ></textarea>
+              <span id="error-msg-m"></span>
             <input type="submit" class="btn btn-primary submit-btn" value="Submit" />
           </form>
         </div>
         <div class="desktop-form">
-          <form action="https://formspree.io/f/xdojkawr" method="post" class="flex contact-form" id="destop">
+          <form action="https://formspree.io/f/xdojkawr" onsubmit="return CheckEmailCase(document.getElementById('email-d'))" method="post" class="flex contact-form" id="destop">
             <div class="first-last-name">
               <div class="first-name-clas">
                 <input type="text" name="firstName" id="First-name" pattern="[a-zA-Z'-'\s]*" class="desktop-input"
@@ -298,6 +300,7 @@
             <textarea class="desktop-input" name="message" id="message-d" cols="48" rows="9"
             maxlength="500" placeholder="Write Your Message Here" required ></textarea>
            </div>
+           <span id="error-msg-d"></span>
             <input type="submit" class="btn btn-primary submit-btn" value="Submit" />
           </form>
         </div>
@@ -317,6 +320,7 @@
             <a href="#" class="text-hover">mudasir9757@gmail.com</a>
           </div>
     </footer>
+    <script src="./contact_form_validation.js"></script>
     <script src="./popup_window.js"></script>
     <script src="./mobile_menu.js"></script>
 
