@@ -1,12 +1,12 @@
 const overlay = document.querySelector('#overlay');
 const ProjectDataObjects = [
   {
-    pro_Name: 'Project#1: Multi-Post Stories',
-    pro_Images: 'images/Project_Image.svg',
-    pro_Description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    pro_Technologies: ['html', 'Ruby on rails', 'css', 'Javascript'],
-    pro_Live: 'https://mudasirsherwani.github.io/Portfolio',
-    pro_Source: 'https://github.com/MudasirSherwani/Portfolio',
+    pro_Name: 'National Basketball Association',
+    pro_Images: 'images/capstion-project.PNG',
+    pro_Description: 'This is the Capstone project in Microverse Curriculum Module No.1. It allows users to make a conference page for any event and publish it for advertisement purposes. It is built with HTML, CSS, and JavaScript.',
+    pro_Technologies: ['html', 'Bootstrap', 'css', 'Javascript'],
+    pro_Live: 'https://mudasirsherwani.github.io/Capstone-Project',
+    pro_Source: 'https://github.com/MudasirSherwani/Capstone-Project',
   },
   {
     pro_Name: 'Project#2: Multi-Post Stories',
